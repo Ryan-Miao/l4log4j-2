@@ -44,6 +44,7 @@ packages="com.test.log">
 
   <Root level="trace">
     <AppenderRef ref="STDOUT"/>
+    <AppenderRef ref="File"/>
   </Root>
 </Loggers>
 
